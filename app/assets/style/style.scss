@@ -4,8 +4,9 @@
 @import "utilities";
 
 @import "basic";
-@import "header";
-@import "footer";
+
+@import "layout/header";
+@import "layout/footer";
 
 @import "components/button";
 @import "components/breadcrumb";

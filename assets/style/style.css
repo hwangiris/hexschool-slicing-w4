@@ -2404,9 +2404,17 @@ section {
     @media screen and (min-width: 1024px) {
       .classic li {
         width: 33.333333%; } }
-    .classic li h3 {
-      font-weight: 900;
-      font-style: italic; }
+  .classic a {
+    display: block; }
+    .classic a:hover img {
+      opacity: 0.9; }
+  .classic img {
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s; }
+  .classic h3 {
+    font-weight: 900;
+    font-style: italic; }
 
 .recommend-cards {
   display: -webkit-box;

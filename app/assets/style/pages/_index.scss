@@ -105,10 +105,21 @@ section {
     @media screen and (min-width: 1024px) {
       width: 33.333333%;
     }
-    h3 {
-      font-weight: 900;
-      font-style: italic;
+  }
+  a {
+    display: block;
+    &:hover {
+      img {
+        opacity: 0.9;
+      }
     }
+  }
+  img {
+    transition: opacity 0.3s;
+  }
+  h3 {
+    font-weight: 900;
+    font-style: italic;
   }
 }
 
